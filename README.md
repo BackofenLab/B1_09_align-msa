@@ -8,9 +8,47 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 ##### Exercise sheet 9: Multiple Sequence Alignment
 ---
 
-### _Exercise 1 - TODO_
+### _Exercise 1 - Multiple Sequence Alignment (MSA)_
 
 ### _Exercise 2 - Progressive Alignment by Feng and Doolittle_
 
+Given the sequences S<sub>1</sub> = CTCACA, S<sub>2</sub> = CAC, S<sub>3</sub> = GTAC and the following scoring function:
 
-### _Exercise 3 - Programming assignmnet:_
+<p align="center">
+  <img src="./figures/sheet9-exercise2-score.svg" alt="score" width=60%/>
+</p>
+
+We want to do progressive alignment following Feng and Doolittle. The needed pairwise alignments are calculated using the Needleman-Wunsch and are as follows:
+
+<p align="center">
+  <img src="./figures/sheet9-exercise2-alignments.svg" alt="alignments" width=45%/>
+</p>
+
+The following guide trees are given in [Newick format](https://en.wikipedia.org/wiki/Newick_format).
+
+**a)** Given the guide tree ((S<sub>1</sub>, S<sub>3</sub>), S<sub>2</sub>), what are the possible resulting multiple sequence alignments?
+
+Use the Needleman-Wunsch implementation of the [Freiburg RNA tools webserver (Teaching)](http://rna.informatik.uni-freiburg.de/) to recompute the pairwise alignments.
+
+In case the webserver is not available, you can find the resulting here:
+
+<details>
+  <summary>Spoiler: (Click to open)</summary>
+    <p align="center">
+    <img src="./figures/sheet9-exercise2-alignment-sol1.svg" alt="alignement1" width=60%/>
+    </p>
+</details>
+
+Additionally, calculate the sum-of-pairs scores for each of the computed alignments, when replacing all placeholders ('X') with gaps.
+
+**b)** What are the alignments and sum-of-pairs scores for the guide tree ((S<sub>2</sub>, S<sub>3</sub>), S<sub>1</sub>)?
+
+<details>
+  <summary>Spoiler: (Click to open)</summary>
+    <p align="center">
+    <img src="./figures/sheet9-exercise2-alignment-sol2.svg" alt="alignement1" width=60%/>
+    </p>
+</details>
+
+### _Exercise 3 - Programming assignment:_
+
