@@ -23,7 +23,7 @@ $ git clone git@github.com:Bioinformatics-teaching/lecture-09-aling-msa-userID.g
 $ cd lecture-09-aling-msa-userID.git
 ```
 
-Do not forget to use your own user ID. Now, we'll install Conda, an open source package and environment management system.
+Do not forget to use your own user ID. Now, we'll install [conda](https://docs.conda.io/projects/conda/en/latest/index.html), an open source package and environment management system.
 
 ```
 $ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -42,26 +42,32 @@ $ conda activate alignmens
 $ conda install mafft
 ```
 
-Perform a multiple sequence alignment with the mafft tool by using the BLOSUM30 and BLOSUM80 matrices:
+Finally, let's compute compute the pairwise alignments of all sequences with the Needleman-Wunsch algorithm by using the BLOSUM30 and BLOSUM80 matrices:
 
 ```
 $ mafft --bl 30 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum30.maf
 $ mafft --bl 80 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum80.maf    
 ```
 
-**a)**
+**a)** What is the most similar sequence to the omicron variant when using the BLOSUM30 matrix?
 
-- [ ] A.
-- [ ] B. 
-- [ ] C.
+- [ ] A. Beta
+- [ ] B. Delta
+- [ ] C. Gamma
 
-**b)**
+**b)** And when using the BLOSUM80 matrix?
 
-- [ ] A.
-- [ ] B. 
-- [ ] C.
+- [ ] A. Beta
+- [ ] B. Delta
+- [ ] C. Gamma
      
-Finally, remove Conda.
+**c)** Which result do you think is more acceptable, taking in account that the percentage of identity is over 95%?
+
+- [ ] A. The results obtained when using the BLOSUM80 matrix is more significant, since this matrix is more suitable for sequence that have more evolutionary distance between them.
+- [ ] B. The results obtained when using the BLOSUM30 matrix is more significant, since this matrix is more suitable for sequence that have less evolutionary distance between them.
+- [ ] C. The results obtained when using the BLOSUM80 matrix is more significant, since this matrix is more suitable for sequence that have less evolutionary distance between them.
+
+Finally, you can remove conda if you consider that you won't need it any more.
 
 ```    
 rm -rf ~/miniconda3
