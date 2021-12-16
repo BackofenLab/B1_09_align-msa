@@ -13,8 +13,27 @@ def exercise_1b():
     """
     Exercise 1 b
 
+    Which of the following statements regarding multiple sequence alignment are correct?
+
+    Set the correct statements to True and the incorrect statements to False.
     """
 
+    # Multiple sequence alignments are important to identify evolutionary conserved sequence features.
+    a = None
+
+    # A multiple sequence alignment can only be as long as the longest sequence involved in the alignment.
+    b = None
+
+    # There is no exact solution for the multiple sequence alignment problem.
+    c = None
+
+    # The Feng \& Doolittle algorithm implements a progressive alignment approach.
+    d = None
+
+    # The results of Feng \& Doolittle depend on order in which input sequences are processed.
+    e = None
+
+    return a, b, c, d, e
 
 """
     Given the sequences S_1 = CTCACA, S_2 = CAC, S_3 = GTAC
@@ -72,6 +91,22 @@ def exercise_2b():
     What are the alignments and sum-of-pairs scores forthe guide tree ((S_2, S_3), S_1)
     """
 
+    alignment1 = "------", \
+                 "------", \
+                 "------"
+    score1 = 0
+
+    alignment2 = "------", \
+                 "------", \
+                 "------"
+    score2 = 0
+
+    alignment3 = "------", \
+                 "------", \
+                 "------"
+    score3 = 0
+
+    return [(set(alignment1), score1), (set(alignment2), score2), (set(alignment3), score3)]
 
 ########################################################
 ############## Programming tasks #######################
