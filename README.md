@@ -68,7 +68,7 @@ $ mafft --bl 80 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_
 Finally, you can remove conda if you consider that you won't need it any more.
 
 ```    
-rm -rf ~/miniconda3
+$ rm -rf ~/miniconda3
 ```
 
 ### _Exercise 2 - Progressive Alignment by Feng and Doolittle_
