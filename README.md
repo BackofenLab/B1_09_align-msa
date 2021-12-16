@@ -115,7 +115,7 @@ Additionally, calculate the sum-of-pairs scores for each of the computed alignme
 
 ### _Exercise 3: Scoring Matrices_
 
-Amino acids with similar physicochemical properties can be more easily substituted than those without similar characteristics, since they are more likely to cause disruptions to the structure and function. This type of disruptive substitution is less likely to be selected in evolution because it renders nonfunctional proteins. 
+Scoring matrices reflect the fact that amino acids with similar physicochemical properties can be more easily substituted than those without similar characteristics, since they are more likely to cause disruptions to the structure and function. This type of disruptive substitution is less likely to be selected in evolution because it renders nonfunctional proteins. 
 
 **a)** PAM matrices
     
