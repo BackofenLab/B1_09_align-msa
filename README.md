@@ -8,13 +8,15 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 ##### Exercise sheet 9: Multiple Sequence Alignment
 ---
 
-### _Exercise 1 - Multiple Sequence Alignment (MSA)_
+### _Exercise 1 - Multiple Sequence Alignment_
 
-Multiple alignments are a key starting point for the prediction of protein secondary structure, residue accessibility and function, and the identification of residues important for specificity.
+Multiple alignments (MSA) are a key starting point for the prediction of protein secondary structure, residue accessibility and function, and the identification of residues important for specificity.
 
 One of the challenges in multiple sequence alignment is the choice of the adequate scoring matrix. In the case of protein sequences, the scoring matrices reflect the physicochemical properties of amino acid residues, as well as the likelihood of certain residues being substituted among true homologous sequences. In this exercise we are going to analyze the effects of using two different scoring matrices on the alignments.
 
-First, we need to clone/download the assignment:
+Note: if you are using Windows, you can follow [this tutorial](https://mafft.cbrc.jp/alignment/software/windows_cygwin.html). As alternative, you can create a [bootable Linux USB drive](https://www.lifewire.com/try-lubuntu-16-04-windows-10-4037886).
+    
+First, you need to clone/download the assignment:
 
 ```
 $ git clone git@github.com:Bioinformatics-teaching/lecture-09-aling-msa-userID.git
@@ -24,27 +26,27 @@ $ cd lecture-09-aling-msa-userID.git
 Do not forget to use your own user ID. Now, answers the questions. Now, we'll install Conda, an open source package and environment management system.
 
 ```
-curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
+$ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+$ bash Miniconda3-latest-Linux-x86_64.sh
 
-conda config --add channels defaults
-conda config --add channels bioconda
-conda config --add channels conda-forge    
+$ conda config --add channels defaults
+$ conda config --add channels bioconda
+$ conda config --add channels conda-forge    
 ```
 
 Next,  we'll create an environment (a directory that contains a specific collection of packages), and will install the requited package.
 
 ```    
-conda create -n alignments
-conda activate alignmens            
-conda install mafft
+$ conda create -n alignments
+$ conda activate alignmens            
+$ conda install mafft
 ```
 
 Perform a multiple sequence alignment with the mafft tool by using the BLOSUM30 and BLOSUM80 matrices:
 
 ```
-mafft --bl 30 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum30.maf
-mafft --bl 80 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum80.maf    
+$ mafft --bl 30 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum30.maf
+$ mafft --bl 80 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum80.maf    
 ```
 
 **a)**
