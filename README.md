@@ -119,11 +119,11 @@ Scoring matrices reflect the fact that amino acids with similar physicochemical 
 
 **a)** PAM matrices
     
-- [ ] A. The increasing PAM numbers correlate with increasing PAM units and thus evolutionary distances of protein sequences. For example, PAM250, which corresponds to 20% amino acid identity, represents 250 mutations per 100 residues. In theory, the number of evolutionary changes approximately corresponds to an expected evolutionary span of 2,500 million years. Thus, the PAM250 matrix is normally used for divergent sequences.
+- [ ] A. The increasing PAM numbers correlate with increasing PAM units and thus evolutionary distances of protein sequences. For example, PAM250, which corresponds to about 20% amino acid identity, represents 250 mutations per 100 residues (a position could mutate several times). In theory, the number of evolutionary changes approximately corresponds to an expected evolutionary span of 2,500 million years. Thus, the PAM250 matrix is normally used for divergent sequences.
 
-- [ ] B. The increasing PAM numbers correlate with increasing PAM units and thus evolutionary distances of protein sequences. For example, PAM250, which corresponds to 20% amino acid identity, represents 250 mutations per 100 residues. In theory, the number of evolutionary changes approximately corresponds to an expected evolutionary span of 2,500 million years. Thus, the PAM250 matrix is normally used for divergent sequences.
+- [ ] B. The increasing PAM numbers correlate with increasing PAM units and thus evolutionary distances of protein sequences. For example, PAM250, which corresponds to about 20% amino acid identity, represents 250 mutations per 100 residues (a position could mutate several times). In theory, the number of evolutionary changes approximately corresponds to an expected evolutionary span of 2,500 million years. Thus, the PAM250 matrix is normally used for divergent sequences.
 
-- [ ] C. The increasing PAM numbers correlate with increasing PAM units and thus evolutionary distances of protein sequences. For example, PAM250, which corresponds to 20% amino acid identity, represents 250 mutations per 100 residues. In theory, the number of evolutionary changes approximately corresponds to an expected evolutionary span of 2,500 million years. Thus, the PAM250 matrix is normally used for divergent sequences.
+- [ ] C. The increasing PAM numbers correlate with increasing PAM units and thus evolutionary distances of protein sequences. For example, PAM250, which corresponds to about 20% amino acid identity, represents 250 mutations per 100 residues (a position could mutate several times). In theory, the number of evolutionary changes approximately corresponds to an expected evolutionary span of 2,500 million years. Thus, the PAM250 matrix is normally used for divergent sequences.
     
 
 **b)** BLOSUM matrices
