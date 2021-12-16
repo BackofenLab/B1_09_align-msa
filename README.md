@@ -113,9 +113,9 @@ Additionally, calculate the sum-of-pairs scores for each of the computed alignme
     </p>
 </details>
 
-### _Exercise 4: Scoring Matrices_
+### _Exercise 3: Scoring Matrices_
 
-Amino acids with similar physicochemical properties can be more easily substituted than those without similar characteristics. However, substitutions between residues of different physicochemical properties are more likely to cause disruptions to the structure and function. This type of disruptive substitution is less likely to be selected in evolution because it renders nonfunctional proteins. 
+Amino acids with similar physicochemical properties can be more easily substituted than those without similar characteristics, since they are more likely to cause disruptions to the structure and function. This type of disruptive substitution is less likely to be selected in evolution because it renders nonfunctional proteins. 
 
 **a)** PAM matrices
     
@@ -144,5 +144,5 @@ Amino acids with similar physicochemical properties can be more easily substitut
 - [ ] C. The principal difference is that the BLOSUM matrices, are derived from an evolutionary model whereas the PAM matrices consist of entirely direct observations. Thus, the BLOSUM matrices may have less evolutionary meaning than the PAM matrices. This is why the PAM matrices are used most often for reconstructing phylogenetic trees. However, because of the mathematical extrapolation procedure used, the PAM values may be less realistic for divergent sequences.
 
 
-### _Exercise 5 - Programming assignment:_
+### _Exercise 4 - Programming assignment:_
 
