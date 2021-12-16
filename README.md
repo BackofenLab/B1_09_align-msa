@@ -23,7 +23,7 @@ $ git clone git@github.com:Bioinformatics-teaching/lecture-09-aling-msa-userID.g
 $ cd lecture-09-aling-msa-userID.git
 ```
 
-Do not forget to use your own user ID. Now, answers the questions. Now, we'll install Conda, an open source package and environment management system.
+Do not forget to use your own user ID. Now, we'll install Conda, an open source package and environment management system.
 
 ```
 $ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
