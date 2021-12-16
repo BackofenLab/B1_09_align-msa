@@ -14,7 +14,7 @@ Multiple alignments (MSA) are a key starting point for the prediction of protein
 
 One of the challenges in multiple sequence alignment is the choice of the adequate scoring matrix. In the case of protein sequences, the scoring matrices reflect the physicochemical properties of amino acid residues, as well as the likelihood of certain residues being substituted among true homologous sequences. In this exercise we are going to analyze the effects of using two different scoring matrices on the alignments.
 
-Note: if you are using Windows, you can follow [this tutorial](https://mafft.cbrc.jp/alignment/software/windows_cygwin.html) in order to run the analysis in Cywig, a tool that provides a UNIX/Linux-like shell emulated over a Windows environment. As alternative, you can create a [bootable Linux USB drive](https://www.lifewire.com/try-lubuntu-16-04-windows-10-4037886).
+Note: if you are using Windows, you can follow [this tutorial](https://mafft.cbrc.jp/alignment/software/windows_cygwin.html) in order to run the analysis in Cywig, a tool that provides a UNIX/Linux-like shell emulated over Windows. As alternative, you can create a [bootable Linux USB drive](https://www.lifewire.com/try-lubuntu-16-04-windows-10-4037886).
     
 First, you need to clone/download the assignment:
 
