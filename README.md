@@ -74,9 +74,9 @@ $ mafft --bl 80 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_
      
 **c)** Which result do you think is more acceptable, taking in account that the percentage of identity is over 95%?
 
-- [ ] A. The results obtained when using the BLOSUM80 matrix is more significant, since this matrix is more suitable for sequences that have more evolutionary distance between them.
-- [ ] B. The results obtained when using the BLOSUM30 matrix is more significant, since this matrix is more suitable for sequences that have less evolutionary distance between them.
-- [ ] C. The results obtained when using the BLOSUM80 matrix is more significant, since this matrix is more suitable for sequences that have less evolutionary distance between them.
+- [ ] A. The result obtained when using the BLOSUM80 matrix is more significant, since this matrix is more suitable for sequences that have more evolutionary distance between them.
+- [ ] B. The result obtained when using the BLOSUM30 matrix is more significant, since this matrix is more suitable for sequences that have less evolutionary distance between them.
+- [ ] C. The result obtained when using the BLOSUM80 matrix is more significant, since this matrix is more suitable for sequences that have less evolutionary distance between them.
 
 Finally, you can remove conda if you consider that you won't need it any more.
 
