@@ -12,7 +12,20 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 
 Multiple sequence alignments (MSA) are a key starting point for the prediction of protein secondary structure, residue accessibility and function. One of the challenges in MSA is the choice of the adequate scoring matrix. In the case of protein sequences, the scoring matrices reflect the physicochemical properties of amino acid residues, as well as the likelihood of certain residues being substituted among true homologous sequences. In this exercise we are going to analyze the effects of using two different scoring matrices on the alignments.
 
-Note: if you are using Windows, you can follow [this tutorial](https://mafft.cbrc.jp/alignment/software/windows_cygwin.html) in order to run the analysis in Cywig, a tool that provides a UNIX/Linux-like shell emulated over Windows. As alternative, you can create a [bootable Linux USB drive](https://www.lifewire.com/try-lubuntu-16-04-windows-10-4037886).
+---
+**NOTE**
+
+if you are using Windows, there are three possible ways to use MAFFT:
+
+1. You can use an [online service](https://mafft.cbrc.jp/alignment/server/) to run MAFFT
+2. You can follow [this tutorial](https://mafft.cbrc.jp/alignment/software/windows_cygwin.html) in order to run the analysis in Cywig, a tool that provides a UNIX/Linux-like shell emulated over Windows.
+3. you can create a [bootable Linux USB drive](https://www.lifewire.com/try-lubuntu-16-04-windows-10-4037886).
+
+
+
+When using the online tool please select the corresponding Scoring (BLOSUM30/80) via the "Scoring matrix for amino acid sequences:" parameter. You can use the defaults for the remaining settings. 
+
+---
     
 First, you need to clone/download the assignment:
 
