@@ -40,7 +40,7 @@ $ conda activate alignmens
 $ conda install mafft
 ```
 
-Finally, let's compute compute the pairwise alignments of all sequences with the Needleman-Wunsch algorithm by using the BLOSUM30 and BLOSUM80 matrices:
+Finally, let's compute the pairwise alignments of all sequences with the Needleman-Wunsch algorithm by using the BLOSUM30 and BLOSUM80 matrices:
 
 ```
 $ mafft --bl 30 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum30.maf
