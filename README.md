@@ -10,6 +10,19 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 
 ### _Exercise 1 - Multiple Sequence Alignment (MSA)_
 
+
+**a)**
+
+
+**b)** Which of the following statements regarding multiple sequence alignment are correct?
+
+- [ ] Multiple sequence alignments are important to identify evolutionary conserved sequence features.
+- [ ] A multiple sequence alignment can only be as long as the longest sequence involved in the alignment.
+- [ ] There is no exact solution for the multiple sequence alignment problem.
+- [ ] The Feng \& Doolittle algorithm implements a progressive alignment approach.
+- [ ] The results of Feng \& Doolittle depend on order in which input sequences are processed.
+
+
 ### _Exercise 2 - Progressive Alignment by Feng and Doolittle_
 
 Given the sequences S<sub>1</sub> = CTCACA, S<sub>2</sub> = CAC, S<sub>3</sub> = GTAC and the following scoring function:
