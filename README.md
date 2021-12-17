@@ -19,7 +19,7 @@ if you are using Windows, there are three possible ways to use MAFFT:
 
 1. You can use an [online service](https://mafft.cbrc.jp/alignment/server/) to run MAFFT
 2. You can follow [this tutorial](https://mafft.cbrc.jp/alignment/software/windows_cygwin.html) in order to run the analysis in Cywig, a tool that provides a UNIX/Linux-like shell emulated over Windows.
-3. you can create a [bootable Linux USB drive](https://www.lifewire.com/try-lubuntu-16-04-windows-10-4037886).
+3. You can create a [bootable Linux USB drive](https://www.lifewire.com/try-lubuntu-16-04-windows-10-4037886).
 
 
 
