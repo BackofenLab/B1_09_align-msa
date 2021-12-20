@@ -8,22 +8,7 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 ##### Exercise sheet 9: Multiple Sequence Alignment
 ---
 
-### _Exercise 1 - Multiple Sequence Alignment_
-
-
-**a)**
-
-
-**b)** Which of the following statements regarding multiple sequence alignment are correct?
-
-- [ ] Multiple sequence alignments are important to identify evolutionary conserved sequence features.
-- [ ] A multiple sequence alignment can only be as long as the longest sequence involved in the alignment.
-- [ ] There is no exact solution for the multiple sequence alignment problem.
-- [ ] The Feng \& Doolittle algorithm implements a progressive alignment approach.
-- [ ] The results of Feng \& Doolittle depend on order in which input sequences are processed.
-
-
-### _Exercise 2 - Progressive Alignment by Feng and Doolittle_
+### _Exercise 1 - Progressive Alignment by Feng and Doolittle_
 
 Given the sequences S<sub>1</sub> = CTCACA, S<sub>2</sub> = CAC, S<sub>3</sub> = GTAC and the following scoring function:
 
@@ -41,20 +26,20 @@ We want to do progressive alignment following Feng and Doolittle. The needed pai
 We want to follow one step of the algorithm introduced in the lecture.
 The following guide trees are given in [Newick format](https://en.wikipedia.org/wiki/Newick_format).
 
-**a)** Starting with the guide tree ((S<sub>1</sub>, S<sub>3</sub>), S<sub>2</sub>), what would be the starting group<sub>1</sub>?
+**a)** Starting with the guide tree **((S<sub>1</sub>, S<sub>3</sub>), S<sub>2</sub>)**, what would be the starting **group<sub>1</sub>**?
 
-**b)** Use the Needleman-Wunsch algorithm to generate all pairwise alignments against group<sub>1</sub> and calculate their respective similarity score.
+**b)** Use the Needleman-Wunsch algorithm to generate all pairwise alignments against **group<sub>1</sub>** and calculate their respective **similarity score**.
 
-**c)** Based on the previously calculated pairwise alignments what are the possible choices for group<sub>2</sub>?
+**c)** Based on the previously calculated pairwise alignments what are the possible choices for **group<sub>2</sub>**?
 
-**d)** Calculate the sum-of-pairs scores for each of the possible group<sub>2</sub> choices.
+**d)** Calculate the sum-of-pairs scores for each of the possible **group<sub>2</sub>** choices.
 
-**e)** Which alignment will be chosen as group<sub>2</sub> for the next step?
+**e)** Which alignment will be chosen as **group<sub>2</sub>** for the next step?
 
-**f)** Based on what you have learned, what are the alignments and sum-of-pairs scores for the guide tree ((S<sub>2</sub>, S<sub>3</sub>), S<sub>1</sub>)?
+**f)** Based on what you have learned, what are the alignments and sum-of-pairs scores for the guide tree **((S<sub>2</sub>, S<sub>3</sub>), S<sub>1</sub>)**?
 
 
-### _Exercise 3: Pratical application of multiple sequence alignment_
+### _Exercise 2: Pratical application of multiple sequence alignment_
 
 
 Multiple sequence alignments (MSA) are a key starting point for the prediction of protein secondary structure, residue accessibility and function. One of the challenges in MSA is the choice of the adequate scoring matrix. In the case of protein sequences, the scoring matrices reflect the physicochemical properties of amino acid residues, as well as the likelihood of certain residues being substituted among true homologous sequences. In this exercise we are going to analyze the effects of using two different scoring matrices on the alignments.
@@ -131,7 +116,7 @@ Finally, you can remove conda if you consider that you won't need it any more.
 $ rm -rf ~/miniconda3
 ```
 
-### _Exercise 4: Scoring Matrices_
+### _Exercise 3: Scoring Matrices_
 
 Scoring matrices reflect the fact that amino acids with similar physicochemical properties can be more easily substituted than those without similar characteristics, since they are more likely to cause disruptions to the structure and function. This type of disruptive substitution is less likely to be selected in evolution because it renders nonfunctional proteins.
 

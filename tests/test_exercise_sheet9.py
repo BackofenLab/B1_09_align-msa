@@ -3,19 +3,7 @@ from exercise_sheet9 import *
 
 
 def test_exercise_1a():
-    assert True
-
-def test_exercise_1b():
-    a,b,c,d,e = exercise_1b()
-
-    assert a is True
-    assert b is False
-    assert c is False
-    assert d is True
-    assert e is True
-
-def test_exercise_2a():
-    answer = exercise_2a()
+    answer = exercise_1a()
 
     alignment1 = "CTCACA", \
                  "--CAC-", \
@@ -36,8 +24,8 @@ def test_exercise_2a():
 
     assert set(answer) == set(expected)
 
-def test_exercise_2b():
-    answer = exercise_2b()
+def test_exercise_1b():
+    answer = exercise_1b()
 
     alignment1 = "CTCACA", \
                  "--CAC-", \

@@ -2,39 +2,6 @@ from typing import runtime_checkable, Tuple, List
 import numpy as np
 
 
-def exercise_1a():
-    """
-    Exercise 1 a
-
-
-    """
-
-def exercise_1b():
-    """
-    Exercise 1 b
-
-    Which of the following statements regarding multiple sequence alignment are correct?
-
-    Set the correct statements to True and the incorrect statements to False.
-    """
-
-    # Multiple sequence alignments are important to identify evolutionary conserved sequence features.
-    a = None
-
-    # A multiple sequence alignment can only be as long as the longest sequence involved in the alignment.
-    b = None
-
-    # There is no exact solution for the multiple sequence alignment problem.
-    c = None
-
-    # The Feng \& Doolittle algorithm implements a progressive alignment approach.
-    d = None
-
-    # The results of Feng \& Doolittle depend on order in which input sequences are processed.
-    e = None
-
-    return a, b, c, d, e
-
 """
     Given the sequences S_1 = CTCACA, S_2 = CAC, S_3 = GTAC
 
@@ -52,61 +19,108 @@ def exercise_1b():
 
     In the following the guide trees are given in Newick format.
 """
-def exercise_2a():
+def exercise_1a():
     """
-    Exercise 2 a
+    Exercise 1 a
 
-    Given the guide tree ((S_1, S_2), S_3), what are the possible
-    resulting multiple sequence alignments.
+    Starting with the guide tree ((S1, S3), S2), what would be the starting group1?
 
-    Use the Needleman-Wunsch implementation of the Freiburg RNA tools webserver
-    to recomputethe pairwise alignments. (check README should the webserver be unavailable)
-
-    Replace place-holder symbols with gap symbols.
-
-    Calculate the sum-of-pair scores for each of the computed alignments.
+    Remember to use the place-holder symbol for gaps: ⬥ (in our case)
     """
 
-    alignment1 = "------", \
-                 "------", \
-                 "------"
-    score1 = 0
 
-    alignment2 = "------", \
-                 "------", \
-                 "------"
-    score2 = 0
+    group1 = "------", \
+             "------",
 
-    alignment3 = "------", \
-                 "------", \
-                 "------"
-    score3 = 0
+    return group1
 
-    return [(set(alignment1), score1), (set(alignment2), score2), (set(alignment3), score3)]
-
-def exercise_2b():
+def exercise_1b():
     """
-    Exercise 2 b
+    Exercise 1 b
 
-    What are the alignments and sum-of-pairs scores forthe guide tree ((S_2, S_3), S_1)
+    Use the Needleman-Wunsch algorithm to generate all pairwise alignments
+    against group1 and calculate their respective similarity score.
+
+    Order of sequences and alignments does not matter.
+    Remember to use the place-holder symbol for the gaps in sequences of group1
     """
 
     alignment1 = "------", \
-                 "------", \
                  "------"
-    score1 = 0
+    similarity_score1 = 0
 
     alignment2 = "------", \
-                 "------", \
                  "------"
-    score2 = 0
+    similarity_score2 = 0
 
     alignment3 = "------", \
-                 "------", \
                  "------"
-    score3 = 0
+    similarity_score3 = 0
 
-    return [(set(alignment1), score1), (set(alignment2), score2), (set(alignment3), score3)]
+    alignment4 = "------", \
+                 "------"
+    similarity_score4 = 0
+
+    return [(set(alignment1), similarity_score1),
+            (set(alignment2), similarity_score2),
+            (set(alignment3), similarity_score3),
+            (set(alignment4), similarity_score4)]
+
+
+def exercise_1c():
+    """
+    Exercise 1 c
+
+    Based on the previously calculated pairwise alignments what are the possible choices for group2?
+
+    """
+
+    group2_1 = "------", \
+               "------", \
+               "------"
+
+    group2_2 = "------", \
+               "------", \
+               "------"
+
+    return [set(group2_1), set(group2_2)]
+
+def exercise_1d():
+    """
+    Exercise 1 d
+
+    Calculate the sum-of-pairs scores for each of the possible group2 choices.
+
+    Remember to replace the placeholder symbols with gaps for the calculation of the SP scores
+    """
+
+    SP_group_1 = None
+    SP_group_2 = None
+
+    return SP_group_1, SP_group_2
+
+def exercise_1e():
+    """
+    Exercise 1 e
+
+    Which alignment will be chosen as group2 for the next step?
+
+    Remember to use the place-holder symbol for gaps: ⬥ (in our case)
+    """
+
+    group2 = "------", \
+             "------", \
+             "------"
+
+    return group2
+
+def exercise_1f():
+    """
+    Exercise 1 f
+
+    Based on what you have learned, what are the alignments
+    and sum-of-pairs scores for the guide tree ((S2, S3), S1)?
+    """
 
 ########################################################
 ############## Programming tasks #######################
