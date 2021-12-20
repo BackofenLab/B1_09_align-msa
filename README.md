@@ -88,8 +88,8 @@ $ conda install mafft
 Finally, let's compute the pairwise alignments of all sequences with the Needleman-Wunsch algorithm by using the BLOSUM30 and BLOSUM80 matrices:
 
 ```
-$ mafft --bl 30 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum30.maf
-$ mafft --bl 80 --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum80.maf
+$ mafft --bl 30 --reorder --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum30.maf
+$ mafft --bl 80 --reorder --globalpair --clustalout sequences/sars_cov2.fasta > alignment_blosum80.maf
 ```
 
 **a)** What is the most similar sequence to the omicron variant when using the BLOSUM30 matrix?
