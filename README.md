@@ -13,7 +13,7 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 Given the sequences S<sub>1</sub> = CTCACA, S<sub>2</sub> = CAC, S<sub>3</sub> = GTAC and the following scoring function:
 
 <p align="center">
-  <img src="./figures/sheet9-exercise2-score.svg" alt="score" width=60%/>
+  <img src="./figures/sheet9-exercise2-score.svg" alt="score" width=80%/>
 </p>
 
 We want to do progressive alignment following Feng and Doolittle. The needed pairwise alignments are calculated using the Needleman-Wunsch and are as follows:
