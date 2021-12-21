@@ -46,6 +46,11 @@ def test_exercise_1b():
 
     assert set(answer) == set(expected)
 
+def test_exercise_2():
+    correct_answer = ["physicochemical","disruptions", "substitution","nonfunctional","evolutionary","distances","identity","divergent","extrapolation","phylogenetic"]
+    assert exercise2a() == correct_answer
+
+    
 ########################################################
 ############## Programming tasks #######################
 ########################################################
