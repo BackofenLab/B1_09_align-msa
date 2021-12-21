@@ -61,10 +61,10 @@ def exercise_1b():
                  "------"
     similarity_score4 = 0
 
-    return [(set(alignment1), similarity_score1),
-            (set(alignment2), similarity_score2),
-            (set(alignment3), similarity_score3),
-            (set(alignment4), similarity_score4)]
+    return [(alignment1, similarity_score1),
+            (alignment2, similarity_score2),
+            (alignment3, similarity_score3),
+            (alignment4, similarity_score4)]
 
 
 def exercise_1c():
@@ -83,7 +83,7 @@ def exercise_1c():
                "------", \
                "------"
 
-    return [set(group2_1), set(group2_2)]
+    return [group2_1, group2_2]
 
 def exercise_1d():
     """
@@ -94,10 +94,10 @@ def exercise_1d():
     Remember to replace the placeholder symbols with gaps for the calculation of the SP scores
     """
 
-    SP_group_1 = None
-    SP_group_2 = None
+    SP_group2_1 = None
+    SP_group2_2 = None
 
-    return SP_group_1, SP_group_2
+    return [SP_group2_1, SP_group2_2]
 
 def exercise_1e():
     """
@@ -121,6 +121,25 @@ def exercise_1f():
     Based on what you have learned, what are the alignments
     and sum-of-pairs scores for the guide tree ((S2, S3), S1)?
     """
+
+    group2_1 = "------", \
+               "------", \
+               "------"
+    SP_group2_1 = 0
+
+    group2_2 = "------", \
+               "------", \
+               "------"
+    SP_group2_2 = 0
+
+    group2_3 = "------", \
+               "------", \
+               "------"
+    SP_group2_3 = 0
+
+    return [(group2_1, SP_group2_1),
+            (group2_2, SP_group2_2),
+            (group2_3, SP_group2_3)]
 
 ########################################################
 ############## Programming tasks #######################
