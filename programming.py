@@ -5,16 +5,35 @@ def zero_init_correct(seq1, seq2):
 
 
 def nw_init_correct(seq1, seq2, scoring):
-    match, mismatch, gap = (
+    match, mismatch, gap, persistent_gap_score = (
         scoring["match"],
         scoring["mismatch"],
         scoring["gap_introduction"],
+        scoring["persistent_gap_score"]
     )
     matrix = zero_init_correct(seq1, seq2)
-    first_row = [i * gap for i in range(len(seq2) + 1)]
+
+    first_row = [0]
+    penalty_row = 0
+    for index, char in enumerate(seq2):
+        if char != "_":
+            penalty_row += gap
+            first_row.append(penalty_row)
+        else:
+            first_row.append(penalty_row)
     matrix[0] = first_row
-    for index, column in enumerate(matrix):
-        column[0] = index * gap
+
+    first_column = [0]
+    penalty_column = 0
+    for index, char in enumerate(seq1):
+        if char != "_":
+            penalty_column += gap
+            first_column.append(penalty_column)
+        else:
+            first_column.append(penalty_column)
+
+    for column, penalty in zip(matrix, first_column):
+        column[0] = penalty
     return matrix
 
 
@@ -47,8 +66,8 @@ def nw_extended_forward_correct(seq1, seq2, scoring):
             diagonal = matrix[row_index - 1][column_index - 1] + no_gap_score
             left = matrix[row_index][column_index - 1] + left_diamond_score
             top = matrix[row_index - 1][column_index] + top_diamond_score
-            min_val = max(top, left, diagonal)
-            matrix[row_index][column_index] = min_val
+            max_val = max(top, left, diagonal)
+            matrix[row_index][column_index] = max_val
 
     print("_________________")
     for row in matrix:
