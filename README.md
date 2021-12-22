@@ -40,14 +40,15 @@ The following guide trees are given in [Newick format](https://en.wikipedia.org/
 
 
 ### _Exercise 2: Scoring Matrices_
+Determine the correct text by replacing the highlighted words with the correct anagrams:
 
-Scoring matrices reflect the fact that amino acids with similar (A) isehcayhilccpmo properties can be more easily substituted than those without similar characteristics, since they are more likely to cause (B) rsistnupoid to the structure and function. This type of disruptive (C) uuttotsbnisi is less likely to be selected in evolution because it renders (D) iouanctfnlonn proteins.
+Scoring matrices reflect the fact that amino acids with similar **(A) isehcayhilccpmo** properties can be more easily substituted than those without similar characteristics, since they are more likely to cause **(B) rsistnupoid** to the structure and function. This type of disruptive **(C) uuttotsbnisi** is less likely to be selected in evolution because it renders **(D) iouanctfnlonn** proteins.
 
-PAM matrices, except PAM1, are derived from an (E) raniyeooutvl model. The increasing PAM numbers correlate with increasing PAM units and thus evolutionary (F) tsnascedi of protein sequences. For example, PAM250, which corresponds to about 20% amino acid (G) tyedniti, represents 250 mutations per 100 residues (a position could mutate several times). In theory, the number of (E) raniyeooutvl changes approximately corresponds to an expected (E) raniyeooutvl span of 2,500 million years. Thus, the PAM250 matrix is normally used for (H) neirtdgve sequences.
+PAM matrices, except PAM1, are derived from an **(E) raniyeooutvl** model. The increasing PAM numbers correlate with increasing PAM units and thus evolutionary **(F) tsnascedi** of protein sequences. For example, PAM250, which corresponds to about 20% amino acid **(G) tyedniti**, represents 250 mutations per 100 residues (a position could mutate several times). In theory, the number of **(E) raniyeooutvl** changes approximately corresponds to an expected **(E) raniyeooutvl** span of 2,500 million years. Thus, the PAM250 matrix is normally used for **(H) neirtdgve** sequences.
 
-BLOSUM matrices are derived based on direct observation for every possible amino acid (C) uuttotsbnisi in multiple sequence alignments. Instead of using the (I) earoopatitnlx function, the BLOSUM matrices are actual percentage identity values of sequences selected for construction of the matrices. For example, BLOSUM62 indicates that the sequences selected for constructing the matrix share an average identity value of 62%.
+BLOSUM matrices are derived based on direct observation for every possible amino acid **(C) uuttotsbnisi** in multiple sequence alignments. Instead of using the **(I) earoopatitnlx** function, the BLOSUM matrices are actual percentage identity values of sequences selected for construction of the matrices. For example, BLOSUM62 indicates that the sequences selected for constructing the matrix share an average identity value of 62%.
 
-This is why the PAM matrices are used most often for reconstructing (J) ogctnihpyele trees. However, because of the mathematical (I) earoopatitnlx procedure used, the PAM values may be less realistic for (H) neirtdgve sequences.
+This is why the PAM matrices are used most often for reconstructing **(J) ogctnihpyele** trees. However, because of the mathematical **(I) earoopatitnlx** procedure used, the PAM values may be less realistic for **(H) neirtdgve** sequences.
 
 ### _Exercise 3: Pratical application of multiple sequence alignment_
 
