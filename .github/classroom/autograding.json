@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
+      "points": 15
     },
     {
       "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item c",
@@ -28,7 +28,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
+      "points": 10
     },
     {
       "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item d",
@@ -38,7 +38,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
+      "points": 15
     },
     {
       "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item e",
@@ -48,7 +48,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
+      "points": 15
     },
     {
       "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item f",
@@ -58,7 +58,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
+      "points": 20
     },
     {
       "name": "Exercise 2 - Scoring Matrices: item a",
@@ -68,7 +68,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
+      "points": 20
     }
   ]
 }
