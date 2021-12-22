@@ -125,7 +125,7 @@ def test_exercise_1f():
     SP_group2_2 = 1
 
     group2_3 = "ctcaca", \
-               "⬥c-ca-", \
+               "⬥c-ac-", \
                "gt-ac-"
     SP_group2_3 = 1
 
