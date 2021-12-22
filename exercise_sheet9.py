@@ -155,5 +155,6 @@ def exercise_2a():
     G = ""
     H = ""
     I = ""
-
-    return [A,B,C,D,E,F,G,H,I]
+    J = ""
+    
+    return [A,B,C,D,E,F,G,H,I,J]
