@@ -40,6 +40,7 @@ The following guide trees are given in [Newick format](https://en.wikipedia.org/
 
 
 ### _Exercise 2: Scoring Matrices_
+Determine the correct text by replacing the highlighted words with the correct anagrams:
 
 Scoring matrices reflect the fact that amino acids with similar **(A) isehcayhilccpmo** properties can be more easily substituted than those without similar characteristics, since they are more likely to cause **(B) rsistnupoid** to the structure and function. This type of disruptive **(C) uuttotsbnisi** is less likely to be selected in evolution because it renders **(D) iouanctfnlonn** proteins.
 
