@@ -127,7 +127,7 @@ def test_exercise_1f():
     group2_3 = "ctcaca", \
                "⬥c-ac-", \
                "gt-ac-"
-    SP_group2_3 = 1
+    SP_group2_3 = 2
 
 
     expected = refactor_answer([(group2_1, SP_group2_1),
