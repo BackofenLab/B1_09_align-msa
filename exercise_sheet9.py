@@ -1,3 +1,4 @@
+from _typeshed import HasFileno
 from typing import runtime_checkable, Tuple, List
 import numpy as np
 
@@ -141,6 +142,23 @@ def exercise_1f():
             (group2_2, SP_group2_2),
             (group2_3, SP_group2_3)]
 
-########################################################
-############## Programming tasks #######################
-########################################################
+
+def exercise_2a():
+    """
+    Exercise 2 a
+
+    Determine the correct text by replacing the highlighted words with the correct anagrams.
+    (See README.md)
+    """
+
+    A = None
+    B = None
+    C = None
+    D = None
+    E = None
+    F = None
+    G = None
+    H = None
+    I = None
+
+    return [A,B,C,D,E,F,G,H,I]

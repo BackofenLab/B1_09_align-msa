@@ -1,0 +1,74 @@
+{
+"tests": [
+    {
+      "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item a",
+      "setup": "",
+      "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1a' > tmp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item b",
+      "setup": "",
+      "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1b' > tmp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item c",
+      "setup": "",
+      "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1c' > tmp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item d",
+      "setup": "",
+      "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1d' > tmp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item e",
+      "setup": "",
+      "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1e' > tmp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item f",
+      "setup": "",
+      "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1f' > tmp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Exercise 2 - Scoring Matrices: item a",
+      "setup": "",
+      "run": "pytest -s ./tests/test_exercise_sheet9.py -k '2a' > tmp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
