@@ -139,10 +139,8 @@ def test_exercise_1f():
 
 
 def test_exercise_2():
-    correct_answer = ["physicochemical","disruptions", "substitution","nonfunctional","evolutionary","distances","identity","divergent","extrapolation","phylogenetic"]
-    assert exercise2a() == correct_answer
+    answer = [word.lower() for word in exercise2a()]
 
-    
-########################################################
-############## Programming tasks #######################
-########################################################
+    correct_answer = ["physicochemical","disruptions", "substitution","nonfunctional","evolutionary","distances","identity","divergent","extrapolation","phylogenetic"]
+
+    assert answer == correct_answer
