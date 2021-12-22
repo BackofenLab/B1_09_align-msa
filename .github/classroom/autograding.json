@@ -2,7 +2,7 @@
 "tests": [
     {
       "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item a",
-      "setup": "",
+      "setup": "sudo -H pip3 install pytest --quiet",
       "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1a' > tmp",
       "input": "",
       "output": "",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item b",
-      "setup": "",
+      "setup": "sudo -H pip3 install pytest --quiet",
       "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1b' > tmp",
       "input": "",
       "output": "",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item c",
-      "setup": "",
+      "setup": "sudo -H pip3 install pytest --quiet",
       "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1c' > tmp",
       "input": "",
       "output": "",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item d",
-      "setup": "",
+      "setup": "sudo -H pip3 install pytest --quiet",
       "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1d' > tmp",
       "input": "",
       "output": "",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item e",
-      "setup": "",
+      "setup": "sudo -H pip3 install pytest --quiet",
       "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1e' > tmp",
       "input": "",
       "output": "",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Exercise 1 - Progressive Alignment by Feng and Doolittle: item f",
-      "setup": "",
+      "setup": "sudo -H pip3 install pytest --quiet",
       "run": "pytest -s ./tests/test_exercise_sheet9.py -k '1f' > tmp",
       "input": "",
       "output": "",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Exercise 2 - Scoring Matrices: item a",
-      "setup": "",
+      "setup": "sudo -H pip3 install pytest --quiet",
       "run": "pytest -s ./tests/test_exercise_sheet9.py -k '2a' > tmp",
       "input": "",
       "output": "",
