@@ -1,8 +1,3 @@
-from _typeshed import HasFileno
-from typing import runtime_checkable, Tuple, List
-import numpy as np
-
-
 """
     Given the sequences S_1 = CTCACA, S_2 = CAC, S_3 = GTAC
 
@@ -151,14 +146,14 @@ def exercise_2a():
     (See README.md)
     """
 
-    A = None
-    B = None
-    C = None
-    D = None
-    E = None
-    F = None
-    G = None
-    H = None
-    I = None
+    A = ""
+    B = ""
+    C = ""
+    D = ""
+    E = ""
+    F = ""
+    G = ""
+    H = ""
+    I = ""
 
     return [A,B,C,D,E,F,G,H,I]

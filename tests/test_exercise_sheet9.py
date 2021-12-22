@@ -139,7 +139,7 @@ def test_exercise_1f():
 
 
 def test_exercise_2():
-    answer = [word.lower() for word in exercise2a()]
+    answer = [word.lower() for word in exercise_2a()]
 
     correct_answer = ["physicochemical","disruptions", "substitution","nonfunctional","evolutionary","distances","identity","divergent","extrapolation","phylogenetic"]
 
