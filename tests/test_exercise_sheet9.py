@@ -138,7 +138,7 @@ def test_exercise_1f():
         assert entry in answer
 
 
-def test_exercise_2():
+def test_exercise_2a():
     answer = [word.lower() for word in exercise_2a()]
 
     correct_answer = ["physicochemical","disruptions", "substitution","nonfunctional","evolutionary","distances","identity","divergent","extrapolation","phylogenetic"]
