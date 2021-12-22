@@ -1,8 +1,10 @@
 import pytest
 from exercise_sheet9 import *
 
+
 def refactor_alignment(alignment):
     return set([sequence.lower() for sequence in alignment])
+
 
 def refactor_answer(answer):
     """
@@ -15,7 +17,8 @@ def refactor_answer(answer):
         score = entry[1]
         refactored_answer.append((alignment, score))
 
-    return set(refactored_answer)
+    return refactored_answer
+
 
 def test_exercise_1a():
     answer = refactor_alignment(exercise_1a())
@@ -26,6 +29,7 @@ def test_exercise_1a():
     expected = refactor_alignment(group1)
 
     assert answer == expected
+
 
 def test_exercise_1b():
     answer = refactor_answer(exercise_1b())
@@ -40,22 +44,23 @@ def test_exercise_1b():
 
     a3_expected = "-c-ac-", \
                   "gt⬥ac⬥"
-    ss3_expected = 0
+    ss3_expected = 1
 
     a4_expected = "c--ac-", \
                   "gt⬥ac⬥"
-    ss4_expected = 0
+    ss4_expected = 1
 
     expected = refactor_answer([(a1_expected, ss1_expected),
                                 (a2_expected, ss2_expected),
                                 (a3_expected, ss3_expected),
                                 (a4_expected, ss4_expected)])
 
-    assert answer == expected
+    for entry in expected:
+        assert entry in answer
 
 
 def test_exercise_1c():
-    answer = refactor_alignment(exercise_1c())
+    answer = [refactor_alignment(group) for group in exercise_1c()]
 
     group2_1 = "ctcaca", \
                "-c-ac-", \
@@ -65,9 +70,11 @@ def test_exercise_1c():
                "c--ac-", \
                "gt⬥ac⬥"
 
-    expected = set([refactor_alignment(group) for group in [group2_1, group2_2]])
+    expected = [refactor_alignment(group) for group in [group2_1, group2_2]]
 
-    assert answer == expected
+    for entry in expected:
+        assert entry in answer
+
 
 def test_exercise_1d():
     answer_alignment = exercise_1c()
@@ -88,7 +95,9 @@ def test_exercise_1d():
     expected = refactor_answer([(group2_1, sp1),
                                 (group2_2, sp2)])
 
-    assert answer == expected
+    for entry in expected:
+        assert entry in answer
+
 
 def test_exercise_1e():
     answer = refactor_alignment(exercise_1e())
@@ -101,8 +110,9 @@ def test_exercise_1e():
 
     assert answer == excepted
 
+
 def test_exercise_1f():
-    answer = refactor_answer(exercise_1f)
+    answer = refactor_answer(exercise_1f())
 
     group2_1 = "ctcaca", \
                "-⬥cac-", \
@@ -124,7 +134,9 @@ def test_exercise_1f():
                                 (group2_2, SP_group2_2),
                                 (group2_3, SP_group2_3)])
 
-    assert answer == expected
+    for entry in expected:
+        assert entry in answer
+
 
 def test_exercise_2():
     correct_answer = ["physicochemical","disruptions", "substitution","nonfunctional","evolutionary","distances","identity","divergent","extrapolation","phylogenetic"]
